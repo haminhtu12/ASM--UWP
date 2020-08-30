@@ -1,4 +1,11 @@
 WinMetadata\Windows.winmd
+Assets\Images\TheThao\aoden.jpg
+Assets\Images\TheThao\caulong.jpg
+Assets\Images\TheThao\manc.jpg
+Assets\Images\TheThao\messi.jpg
+Assets\Images\TheThao\newer.jpg
+Assets\Images\TheThao\quanvot.jpg
+Assets\Images\TheThao\san.jpg
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -8,5 +15,6 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 ASM_HA_MINH_TU.xr.xml
+BlankPage1.xbf
 MainPage.xbf
 Properties\Default.rd.xml

@@ -4,11 +4,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ASM_HA_MINH_TU"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:data="using:ASM_HA_MINH_TU.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Pivot x:Name="rootPivot" Title="Tin Mới" Background="MidnightBlue" Foreground="White" >
+
         <!-- Set pivot title style -->
         <Pivot.TitleTemplate>
             <DataTemplate>
@@ -17,15 +18,19 @@
                 </Grid>
             </DataTemplate>
         </Pivot.TitleTemplate>
-
+    
         <!-- Set pivot Header style -->
         <Pivot.HeaderTemplate>
             <DataTemplate>
-                <Grid>
-                    <TextBlock Text="{Binding}" Foreground="White" />
-                </Grid>
+                <TextBlock Text="{Binding}" Foreground="White" />
             </DataTemplate>
         </Pivot.HeaderTemplate>
+
+        <!--<Pivot.ItemTemplate>
+            <DataTemplate x:DataType="data:Article">
+                <TextBlock Text="{x:Bind title}"/>
+            </DataTemplate>
+        </Pivot.ItemTemplate>-->
 
         <!-- First pivot item,  tin mới nhất trong ngày -->
         <PivotItem Header="Xem Nhiều Nhất">
@@ -44,13 +49,23 @@
                         </Grid.ColumnDefinitions>
                         <Grid   Background="Gray" BorderBrush="black" BorderThickness="2">
                             <!-- Stretch to fill news image over grid -->
+
+                            <GridView ItemsSource="{x:Bind Articles}"
+>
+                                <GridView.ItemTemplate>
+                                    <DataTemplate x:DataType="data:Article">
+                                        <Image x:Name="MyImage" Height="122" Width="101" Source="{x:Bind title}"/>
+                                    </DataTemplate>
+                                </GridView.ItemTemplate>
+
+                            </GridView>
                             <Image  Stretch="UniformToFill" Opacity="0.60">
                                 <Image.Source>
                                     <BitmapImage x:Name="urlImage1" />
                                 </Image.Source>
                             </Image>
                             <!-- Stack news title over image -->
-                            <TextBlock x:Name="url1" Text="1" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                            <TextBlock x:Name="url1" Text="{x:Bind title}" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
                         </Grid>
                         <Grid Grid.Column="2"  Background="Gray" BorderBrush="black" BorderThickness="2">
                             <Image Stretch="UniformToFill" Opacity="0.60">
@@ -108,98 +123,88 @@
                             </Image>
                             <TextBlock x:Name="url8Sports" Text="8" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
                         </Grid>
+                        
                     </Grid>
 
                 </StackPanel>
             </ScrollViewer>
         </PivotItem>
-        
+
         <PivotItem Header="Thể Thao">
-            <ScrollViewer>
-                <StackPanel x:Name="stackpanel2" Background="MidnightBlue" Padding="30">
+            <!--<ScrollViewer>
                     <Grid BorderBrush="black" BorderThickness="2">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <Grid   Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <!-- Stretch to fill news image over grid -->
-                            <Image  Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImagesp1" />
-                                </Image.Source>
-                            </Image>
-                            <!-- Stack news title over image -->
-                            <TextBlock x:Name="urlsp1" Text="1" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-                        </Grid>
-                        <Grid Grid.Column="2"  Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <Image Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImgSp2"/>
-                                </Image.Source>
-                            </Image>
+                        <Grid>
+                        <GridView  Background="Gray" BorderBrush="black" BorderThickness="2" ItemsSource="{Binding Articles}">
+                            --><!-- Stretch to fill news image over grid -->
+                            <!--<Image  Stretch="UniformToFill" Opacity="0.60"   Source="{Binding ImageFile}"/>--><!--
+                            <GridView.ItemTemplate>
+                                <DataTemplate x:DataType="data:Article">
+                                    <TextBlock x:Name="urlsp1" Text="111" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                            --><!-- Stack news title over image --><!--
+                            
+                        </GridView>
+                    </Grid>
+                    --><!--<Grid Grid.Column="2"  Background="Gray" BorderBrush="black" BorderThickness="2">
+                            <Image  Stretch="UniformToFill" Opacity="0.60"   Source="Assets/Images/thethao/2.jpg"/>
                             <TextBlock x:Name="urlSp2" Text="2" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
                         </Grid>
                         <Grid Grid.Row="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <Image Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImgSp3"/>
-                                </Image.Source>
-                            </Image>
+                            <Image  Stretch="UniformToFill" Opacity="0.60"   Source="Assets/Images/thethao/3.jpg"/>
                             <TextBlock x:Name="urlSp3" Text="3"  Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
                         </Grid>
                         <Grid Grid.Row="1" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <Image Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImgSp4"/>
-                                </Image.Source>
-                            </Image>
+                            <Image  Stretch="UniformToFill" Opacity="0.60"   Source="Assets/Images/thethao/4.jpg"/>
                             <TextBlock x:Name="urlSp4" Text="4" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
                         </Grid>
                         <Grid Grid.Row="2"   Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <Image Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImgSp5"/>
-                                </Image.Source>
-                            </Image>
-                            <TextBlock x:Name="urlSp5" Text="5" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="222*"/>
+                                <ColumnDefinition Width="131*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image  Stretch="UniformToFill" Opacity="0.60"   Source="Assets/Images/thethao/5.jpg"/>
+                            <TextBlock x:Name="urlSp5" Text="5" Margin="12,12,13,12" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" Grid.ColumnSpan="2" />
                         </Grid>
                         <Grid Grid.Row="2" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <Image Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImgSp6"/>
-                                </Image.Source>
-                            </Image>
+                            <Image  Stretch="UniformToFill" Opacity="0.60"   Source="Assets/Images/thethao/6.jpg"/>
                             <TextBlock x:Name="urlSp6" Text="6" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
                         </Grid>
                         <Grid Grid.Row="3"  Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <Image Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImgSp7"/>
-                                </Image.Source>
-                            </Image>
+                            <Image  Stretch="UniformToFill" Opacity="0.60"   Source="Assets/Images/thethao/7.jpg"/>
                             <TextBlock x:Name="urlSp7" Text="7" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
                         </Grid>
                         <Grid Grid.Row="3" Grid.Column="1"  Background="Gray" BorderBrush="black" BorderThickness="2">
-                            <Image Stretch="UniformToFill" Opacity="0.60">
-                                <Image.Source>
-                                    <BitmapImage x:Name="urlImgSp8"/>
-                                </Image.Source>
-                            </Image>
+                            <Image  Stretch="UniformToFill" Opacity="0.60"   Source="Assets/Images/thethao/8.jpg"/>
                             <TextBlock x:Name="urlSp8" Text="8" Margin="10" TextWrapping="Wrap" Foreground="White" FontFamily="Segoe UI Light" FontSize="24" />
-                        </Grid>
+                        </Grid>--><!--
 
                     </Grid>
-                </StackPanel>
-            </ScrollViewer>
+            </ScrollViewer>-->
+            
+            <Grid>
+
+                <GridView ItemsSource="{ x:Bind  Articles}" Background="Gray" BorderBrush="black" BorderThickness="2">
+                    <GridView.ItemTemplate >
+                        <DataTemplate x:DataType="data:Article">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{x:Bind ImageFile}"  Stretch="UniformToFill" Opacity="0.60"/>
+                                <TextBlock Text="{x:Bind description}" Margin="10" TextWrapping="Wrap"  FontFamily="Segoe UI Light" FontSize="24"  Foreground ="White"/>
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+            </Grid>
+
         </PivotItem>
-        
+
         <PivotItem Header="Kinh tế">
             <ScrollViewer>
                 <StackPanel x:Name="stackpanel3" Background="MidnightBlue" Padding="30">
@@ -316,4 +321,5 @@
         </PivotItem>
 
     </Pivot>
+   
 </Page>

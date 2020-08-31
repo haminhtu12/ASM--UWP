@@ -63,21 +63,21 @@ namespace ASM_HA_MINH_TU
                 // if toggle switch is on, change to light theme
                 if (toggleSwitch2.IsOn == true)
                 {
-                    //rootPivot.Background = new SolidColorBrush(Colors.DarkGray);
-                    //stackpanel.Background = new SolidColorBrush(Colors.DarkGray);
-                    //stackpanel2.Background = new SolidColorBrush(Colors.DarkGray);
-                    //stackpanel3.Background = new SolidColorBrush(Colors.DarkGray);
-                    //stackpanel4.Background = new SolidColorBrush(Colors.DarkGray);
+                    rootPivot.Background = new SolidColorBrush(Colors.DarkGray);
+                    stackpanel.Background = new SolidColorBrush(Colors.DarkGray);
+                    stackpanel2.Background = new SolidColorBrush(Colors.DarkGray);
+                    stackpanel3.Background = new SolidColorBrush(Colors.DarkGray);
+                    stackpanel4.Background = new SolidColorBrush(Colors.DarkGray);
 
                 }
                 // if not, change to dark theme
                 else
                 {
-                    //rootPivot.Background = new SolidColorBrush(Colors.MidnightBlue);
-                    //stackpanel.Background = new SolidColorBrush(Colors.MidnightBlue);
-                    //stackpanel2.Background = new SolidColorBrush(Colors.MidnightBlue);
-                    //stackpanel3.Background = new SolidColorBrush(Colors.MidnightBlue);
-                    //stackpanel4.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    rootPivot.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel2.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel3.Background = new SolidColorBrush(Colors.MidnightBlue);
+                    stackpanel4.Background = new SolidColorBrush(Colors.MidnightBlue);
                 }
 
 

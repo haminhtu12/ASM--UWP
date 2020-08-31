@@ -34,6 +34,9 @@
 
         <!-- First pivot item,  tin mới nhất trong ngày -->
         <PivotItem Header="Giải Trí">
+            <ScrollViewer>
+            <StackPanel x:Name="stackpanel">
+                
             <Grid>
 
                 <GridView ItemsSource="{ x:Bind  ArticleGiaiTri}" Background="Gray" BorderBrush="black" BorderThickness="2">
@@ -54,11 +57,14 @@
                     </GridView.ItemTemplate>
                 </GridView>
             </Grid>
+            </StackPanel>
+            </ScrollViewer>
         </PivotItem>
 
         <PivotItem Header="Thể Thao">
-      
-            
+            <ScrollViewer>
+
+                <StackPanel  x:Name="stackpanel2" >
             <Grid>
 
                 <GridView ItemsSource="{ x:Bind  ArticleTheThao}" Background="Gray" BorderBrush="black" BorderThickness="2">
@@ -79,11 +85,16 @@
                     </GridView.ItemTemplate>
                 </GridView>
             </Grid>
+            </StackPanel>
+                </ScrollViewer>
 
         </PivotItem>
-
+        
         <PivotItem Header="Kinh tế">
-            <Grid>
+            <ScrollViewer>
+
+                <StackPanel x:Name="stackpanel3">
+                <Grid>
 
                 <GridView ItemsSource="{ x:Bind  ArticleKinhTe}" Background="Gray" BorderBrush="black" BorderThickness="2">
                     <GridView.ItemTemplate >
@@ -103,6 +114,8 @@
                     </GridView.ItemTemplate>
                 </GridView>
             </Grid>
+            </StackPanel>
+            </ScrollViewer>
 
         </PivotItem>
         <PivotItem Header="Tìm kiếm">

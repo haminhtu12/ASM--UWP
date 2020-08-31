@@ -34,6 +34,21 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\agl.jpg">
+      <PackagePath>Assets\Images\giaitri\agl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\aodai.jpg">
+      <PackagePath>Assets\Images\giaitri\aodai.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\cd.jpg">
+      <PackagePath>Assets\Images\giaitri\cd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\hoahau.jpg">
+      <PackagePath>Assets\Images\giaitri\hoahau.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\kc.jpg">
+      <PackagePath>Assets\Images\giaitri\kc.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\TheThao\messi.jpg">
       <PackagePath>Assets\Images\TheThao\messi.jpg</PackagePath>
     </AppxPackagedFile>
@@ -55,8 +70,8 @@
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\TheThao\manc.jpg">
       <PackagePath>Assets\Images\TheThao\manc.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\vnjl.png">
+      <PackagePath>Assets\Images\giaitri\vnjl.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -84,6 +99,9 @@
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\ASM_HA_MINH_TU.xr.xml">
       <PackagePath>ASM_HA_MINH_TU.xr.xml</PackagePath>

@@ -10,11 +10,9 @@ namespace ASM_HA_MINH_TU.Models
 {
     public enum NewsCategory
     {
-        TinMoiNhat,
         TheThao,
         KinhTe,
         GiaiTri,
-        XemNhieuNhat
     }
 
     public class Article
@@ -47,6 +45,13 @@ namespace ASM_HA_MINH_TU.Models
             articles.Add(new Article("caulong", "Hot girl cầu lông Việt Nam giành ngôi Á quân trên đất Áo", NewsCategory.TheThao));
             articles.Add(new Article("manc", "Man City vô địch Cúp Liên đoàn Anh 2020", NewsCategory.TheThao));
 
+            articles.Add(new Article("kc", "Chadwick Boseman - chiến binh kiên cường", NewsCategory.GiaiTri));
+            articles.Add(new Article("hoahau", "Hoa hậu Cộng hòa Dominica đeo khẩu trang nhận vương miện", NewsCategory.GiaiTri));
+            articles.Add(new Article("vnjl", "Nhan sắc Hoa hậu Trái đất Venezuela 2020", NewsCategory.GiaiTri));
+            articles.Add(new Article("aodai", "Áo dài của Trương Thị May được đấu giá 220 triệu đồng", NewsCategory.GiaiTri));
+            articles.Add(new Article("agl", "Angelina Jolie chuộng khẩu trang sản xuất ở Việt Nam", NewsCategory.GiaiTri));
+            articles.Add(new Article("cd", "Chân dung văn nghệ sĩ một thời", NewsCategory.GiaiTri));
+
 
 
             return articles;
@@ -62,10 +67,12 @@ namespace ASM_HA_MINH_TU.Models
         }
         public static void GetArticleByCategory(ObservableCollection<Article> articles, NewsCategory newsCategory)
         {
-            var allarticle = getArticles();
+            List<Article> allarticle = getArticles();
             var filetedArticles = allarticle.Where(p => p.Category == newsCategory).ToList();
+            filetedArticles.ForEach(p => articles.Add(p));
+
         }
-        public static void GetSoundByname(ObservableCollection<Article> articles, string title)
+        public static void GetArticleByname(ObservableCollection<Article> articles, string title)
         {
             var allarticle = getArticles();
             var filetedArticles = allarticle.Where(p => p.title == title).ToList();

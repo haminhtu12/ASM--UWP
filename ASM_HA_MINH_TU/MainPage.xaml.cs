@@ -30,22 +30,23 @@ namespace ASM_HA_MINH_TU
     public sealed partial class MainPage : Page
     {
         private string title = "haha";
-        private ObservableCollection<Article> Articles;
+        private ObservableCollection<Article> ArticleTheThao;
+        private ObservableCollection<Article> ArticleGiaiTri;
         private List<MenuItem> MenuIems;
         private List<String> Suggestions;
 
         public MainPage()
         {
             this.InitializeComponent();
-            Articles = new ObservableCollection<Article>();
-            ArticleManager.GetAllArticles(Articles);
+            ArticleTheThao = new ObservableCollection<Article>();
+            ArticleManager.GetArticleByCategory(ArticleTheThao, NewsCategory.TheThao );
+            ArticleGiaiTri = new ObservableCollection<Article>();
+            ArticleManager.GetArticleByCategory(ArticleGiaiTri, NewsCategory.GiaiTri);
             MenuIems = new List<MenuItem>();
             MenuIems.Add(new MenuItem { ImageFile = "Assets/Images/thethao/1.jpg", Category = NewsCategory.TheThao });
             MenuIems.Add(new MenuItem { ImageFile = "Assets/Images/thethao/2.jpg", Category = NewsCategory.TheThao });
             MenuIems.Add(new MenuItem { ImageFile = "Assets/Images/thethao/3.jpg", Category = NewsCategory.TheThao });
             MenuIems.Add(new MenuItem { ImageFile = "Assets/Images/thethao/4.jpg", Category = NewsCategory.TheThao });
-            Debug.WriteLine(111111);
-            Debug.WriteLine(Articles);
         }
 
         private void toggleSwitch2_Toggled(object sender, RoutedEventArgs e)

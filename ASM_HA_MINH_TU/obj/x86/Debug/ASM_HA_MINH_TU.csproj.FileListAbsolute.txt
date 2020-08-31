@@ -47,3 +47,4 @@ C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\obj\x86\Debug\
 C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\obj\x86\Debug\BlankPage1.g.cs
 C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\obj\x86\Debug\BlankPage1.xaml
 C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\obj\x86\Debug\BlankPage1.xbf
+C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\obj\x86\Debug\ASM_HA_MINH_TU.csprojAssemblyReference.cache

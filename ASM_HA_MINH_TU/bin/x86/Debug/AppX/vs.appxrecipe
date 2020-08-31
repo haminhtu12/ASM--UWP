@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-30T16:15:38.303</Modified>
+      <Modified>2020-08-31T02:13:19.040</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\ASM_HA_MINH_TU.exe">
       <PackagePath>entrypoint\ASM_HA_MINH_TU.exe</PackagePath>
-      <Modified>2020-08-30T16:15:37.697</Modified>
+      <Modified>2020-08-31T02:13:18.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -45,6 +45,26 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\agl.jpg">
+      <PackagePath>Assets\Images\giaitri\agl.jpg</PackagePath>
+      <Modified>2020-08-30T16:53:56.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\aodai.jpg">
+      <PackagePath>Assets\Images\giaitri\aodai.jpg</PackagePath>
+      <Modified>2020-08-30T16:53:56.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\cd.jpg">
+      <PackagePath>Assets\Images\giaitri\cd.jpg</PackagePath>
+      <Modified>2020-08-30T16:53:56.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\hoahau.jpg">
+      <PackagePath>Assets\Images\giaitri\hoahau.jpg</PackagePath>
+      <Modified>2020-08-30T16:53:56.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\kc.jpg">
+      <PackagePath>Assets\Images\giaitri\kc.jpg</PackagePath>
+      <Modified>2020-08-30T16:53:56.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\TheThao\messi.jpg">
       <PackagePath>Assets\Images\TheThao\messi.jpg</PackagePath>
@@ -74,9 +94,9 @@
       <PackagePath>Assets\Images\TheThao\manc.jpg</PackagePath>
       <Modified>2020-08-27T04:27:15.839</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-08-26T19:42:35.328</Modified>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\vnjl.png">
+      <PackagePath>Assets\Images\giaitri\vnjl.png</PackagePath>
+      <Modified>2020-08-30T16:53:56.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -112,21 +132,25 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-19T08:55:29.992</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-08-26T19:42:35.328</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\ASM_HA_MINH_TU.xr.xml">
       <PackagePath>ASM_HA_MINH_TU.xr.xml</PackagePath>
-      <Modified>2020-08-30T16:03:44.091</Modified>
+      <Modified>2020-08-30T16:23:25.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-30T16:15:37.466</Modified>
+      <Modified>2020-08-31T02:13:18.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\BlankPage1.xbf">
       <PackagePath>BlankPage1.xbf</PackagePath>
-      <Modified>2020-08-30T16:15:37.466</Modified>
+      <Modified>2020-08-31T02:13:18.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-30T16:15:37.466</Modified>
+      <Modified>2020-08-31T02:13:18.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -134,11 +158,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-30T16:15:05.047</Modified>
+      <Modified>2020-08-30T16:55:57.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\bin\x86\Debug\Core\ASM_HA_MINH_TU.exe">
       <PackagePath>ASM_HA_MINH_TU.exe</PackagePath>
-      <Modified>2020-08-30T16:15:38.298</Modified>
+      <Modified>2020-08-31T02:13:19.035</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

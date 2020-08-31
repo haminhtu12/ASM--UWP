@@ -134,6 +134,12 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\giaitri\agl.jpg" />
+    <Content Include="Assets\Images\giaitri\aodai.jpg" />
+    <Content Include="Assets\Images\giaitri\cd.jpg" />
+    <Content Include="Assets\Images\giaitri\hoahau.jpg" />
+    <Content Include="Assets\Images\giaitri\kc.jpg" />
+    <Content Include="Assets\Images\giaitri\vnjl.png" />
     <Content Include="Assets\Images\TheThao\messi.jpg" />
     <Content Include="Assets\Images\TheThao\san.jpg" />
     <Content Include="Assets\Images\TheThao\aoden.jpg" />
@@ -170,7 +176,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Images\giaitri\" />
     <Folder Include="Assets\Images\kinhte\" />
     <Folder Include="Assets\Images\tinmoi\" />
     <Folder Include="Assets\Images\xemnhieu\" />

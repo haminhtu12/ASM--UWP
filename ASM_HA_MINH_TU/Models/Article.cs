@@ -53,6 +53,14 @@ namespace ASM_HA_MINH_TU.Models
             articles.Add(new Article("cd", "Chân dung văn nghệ sĩ một thời", NewsCategory.GiaiTri));
 
 
+            articles.Add(new Article("sun", "Sunshine City Sài Gòn sắp được bàn giao", NewsCategory.KinhTe));
+            articles.Add(new Article("cc", "Mô hình căn hộ all in one mang đến sự trải nghiệm cuộc sống hiện đại và đẳng cấp cho cư dân.", NewsCategory.KinhTe));
+            articles.Add(new Article("sun", "Sunshine City Sài Gòn sắp được bàn giao", NewsCategory.KinhTe));
+            articles.Add(new Article("tt", "Trao tặng 2 xe cứu thương do MB tài trợ cho Bệnh viện Bạch Mai", NewsCategory.KinhTe));
+            articles.Add(new Article("dl", "Đồng USD giảm giá", NewsCategory.KinhTe));
+            articles.Add(new Article("gv", "Giá vàng hôm nay 30/8: Rơi chạm đáy rồi tăng sốc", NewsCategory.KinhTe));
+
+
 
             return articles;
 

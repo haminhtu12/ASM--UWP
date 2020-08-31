@@ -32,6 +32,7 @@ namespace ASM_HA_MINH_TU
         private string title = "haha";
         private ObservableCollection<Article> ArticleTheThao;
         private ObservableCollection<Article> ArticleGiaiTri;
+        private ObservableCollection<Article> ArticleKinhTe;
         private List<MenuItem> MenuIems;
         private List<String> Suggestions;
 
@@ -39,9 +40,11 @@ namespace ASM_HA_MINH_TU
         {
             this.InitializeComponent();
             ArticleTheThao = new ObservableCollection<Article>();
-            ArticleManager.GetArticleByCategory(ArticleTheThao, NewsCategory.TheThao );
             ArticleGiaiTri = new ObservableCollection<Article>();
+            ArticleKinhTe = new ObservableCollection<Article>();
+            ArticleManager.GetArticleByCategory(ArticleTheThao, NewsCategory.TheThao );
             ArticleManager.GetArticleByCategory(ArticleGiaiTri, NewsCategory.GiaiTri);
+            ArticleManager.GetArticleByCategory(ArticleKinhTe, NewsCategory.KinhTe);
             MenuIems = new List<MenuItem>();
             MenuIems.Add(new MenuItem { ImageFile = "Assets/Images/thethao/1.jpg", Category = NewsCategory.TheThao });
             MenuIems.Add(new MenuItem { ImageFile = "Assets/Images/thethao/2.jpg", Category = NewsCategory.TheThao });

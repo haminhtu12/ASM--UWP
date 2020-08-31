@@ -85,7 +85,7 @@
         <PivotItem Header="Kinh tế">
             <Grid>
 
-                <GridView ItemsSource="{ x:Bind  ArticleTheThao}" Background="Gray" BorderBrush="black" BorderThickness="2">
+                <GridView ItemsSource="{ x:Bind  ArticleKinhTe}" Background="Gray" BorderBrush="black" BorderThickness="2">
                     <GridView.ItemTemplate >
                         <DataTemplate x:DataType="data:Article">
                             <Grid>

@@ -49,6 +49,21 @@
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\giaitri\kc.jpg">
       <PackagePath>Assets\Images\giaitri\kc.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\kinhte\cc.jpg">
+      <PackagePath>Assets\Images\kinhte\cc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\kinhte\ct.jpg">
+      <PackagePath>Assets\Images\kinhte\ct.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\kinhte\dl.jpg">
+      <PackagePath>Assets\Images\kinhte\dl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\kinhte\gv.jpg">
+      <PackagePath>Assets\Images\kinhte\gv.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\kinhte\sun.jpg">
+      <PackagePath>Assets\Images\kinhte\sun.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\LT88 - BVCN 2\source\repos\ASM_HA_MINH_TU\ASM_HA_MINH_TU\Assets\Images\TheThao\messi.jpg">
       <PackagePath>Assets\Images\TheThao\messi.jpg</PackagePath>
     </AppxPackagedFile>

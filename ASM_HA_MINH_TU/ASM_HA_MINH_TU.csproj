@@ -140,6 +140,11 @@
     <Content Include="Assets\Images\giaitri\hoahau.jpg" />
     <Content Include="Assets\Images\giaitri\kc.jpg" />
     <Content Include="Assets\Images\giaitri\vnjl.png" />
+    <Content Include="Assets\Images\kinhte\cc.jpg" />
+    <Content Include="Assets\Images\kinhte\ct.jpg" />
+    <Content Include="Assets\Images\kinhte\dl.jpg" />
+    <Content Include="Assets\Images\kinhte\gv.jpg" />
+    <Content Include="Assets\Images\kinhte\sun.jpg" />
     <Content Include="Assets\Images\TheThao\messi.jpg" />
     <Content Include="Assets\Images\TheThao\san.jpg" />
     <Content Include="Assets\Images\TheThao\aoden.jpg" />
@@ -176,7 +181,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Images\kinhte\" />
     <Folder Include="Assets\Images\tinmoi\" />
     <Folder Include="Assets\Images\xemnhieu\" />
   </ItemGroup>

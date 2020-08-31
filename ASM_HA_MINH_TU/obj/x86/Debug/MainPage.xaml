@@ -85,7 +85,7 @@
         <PivotItem Header="Kinh tế">
             <Grid>
 
-                <GridView x:ConnectionId='10'                                         Background="Gray" BorderBrush="black" BorderThickness="2">
+                <GridView x:ConnectionId='10'                                        Background="Gray" BorderBrush="black" BorderThickness="2">
                     <GridView.ItemTemplate >
                         <DataTemplate                          >
                             <Grid x:ConnectionId='12'>
